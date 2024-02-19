@@ -1,4 +1,4 @@
-# Generated on 20240217T0228294684Z
+# Generated on 20240219T1710508554Z
 /ip firewall address-list remove [/ip firewall address-list find list="spamhaus"]
 /ip firewall address-list remove [/ip firewall address-list find list="abusech"]
 /ip firewall address-list remove [/ip firewall address-list find list="etopen"]
@@ -253,6 +253,7 @@ add list=spamhaus address=103.184.144.0/23
 add list=spamhaus address=103.184.172.0/23
 add list=spamhaus address=103.192.228.0/22
 add list=spamhaus address=103.193.180.0/22
+add list=spamhaus address=103.195.144.0/22
 add list=spamhaus address=103.199.88.0/22
 add list=spamhaus address=103.214.56.0/22
 add list=spamhaus address=103.215.80.0/22
@@ -1176,6 +1177,7 @@ add list=spamhaus address=141.98.4.0/24
 add list=spamhaus address=141.98.10.0/24
 add list=spamhaus address=141.98.11.0/24
 add list=spamhaus address=142.171.48.0/24
+add list=spamhaus address=142.171.227.0/24
 add list=spamhaus address=143.92.43.0/24
 add list=spamhaus address=146.185.222.0/24
 add list=spamhaus address=147.78.102.0/24
@@ -1310,7 +1312,6 @@ add list=spamhaus address=216.63.240.0/22
 add list=spamhaus address=218.92.0.0/24
 add list=spamhaus address=221.227.188.0/22
 add list=abusech address=192.9.135.73
-add list=abusech address=196.218.123.202
 add list=abusech address=85.239.243.155
 add list=abusech address=37.60.242.85
 add list=abusech address=178.18.246.136
@@ -1322,13 +1323,19 @@ add list=abusech address=86.38.225.105
 add list=abusech address=104.129.55.106
 add list=abusech address=103.82.243.5
 add list=abusech address=104.129.55.105
-add list=abusech address=172.232.189.219
 add list=abusech address=198.44.187.12
-add list=abusech address=172.232.189.10
-add list=abusech address=172.232.162.97
-add list=abusech address=172.232.186.100
 add list=abusech address=185.179.217.216
-add list=abusech address=172.232.174.6
+add list=abusech address=89.117.23.34
+add list=abusech address=89.117.23.185
+add list=abusech address=57.128.165.176
+add list=abusech address=141.95.106.106
+add list=abusech address=154.12.248.41
+add list=abusech address=145.239.135.24
+add list=abusech address=89.117.23.186
+add list=abusech address=148.113.141.220
+add list=abusech address=154.38.175.241
+add list=abusech address=154.12.233.66
+add list=abusech address=109.199.99.131
 add list=etopen address=101.47.10.60
 add list=etopen address=102.133.229.51
 add list=etopen address=103.123.63.116
