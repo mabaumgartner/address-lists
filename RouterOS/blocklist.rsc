@@ -1,4 +1,4 @@
-# Generated on 20240223T2224086102Z
+# Generated on 20240226T2012372491Z
 /ip firewall address-list remove [/ip firewall address-list find list="spamhaus"]
 /ip firewall address-list remove [/ip firewall address-list find list="abusech"]
 /ip firewall address-list remove [/ip firewall address-list find list="etopen"]
@@ -97,6 +97,7 @@ add list=spamhaus address=77.81.89.0/24
 add list=spamhaus address=77.87.123.0/24
 add list=spamhaus address=80.94.95.0/24
 add list=spamhaus address=80.208.192.0/20
+add list=spamhaus address=83.97.73.0/24
 add list=spamhaus address=83.175.0.0/18
 add list=spamhaus address=84.238.160.0/22
 add list=spamhaus address=85.121.39.0/24
@@ -980,6 +981,7 @@ add list=spamhaus address=209.161.64.0/19
 add list=spamhaus address=209.182.64.0/19
 add list=spamhaus address=212.70.149.0/24
 add list=spamhaus address=212.237.152.0/21
+add list=spamhaus address=213.109.202.0/24
 add list=spamhaus address=216.4.96.0/20
 add list=spamhaus address=216.137.144.0/20
 add list=spamhaus address=216.147.192.0/20
@@ -993,6 +995,7 @@ add list=spamhaus address=223.173.0.0/16
 add list=spamhaus address=223.254.0.0/16
 add list=spamhaus address=2.56.247.0/24
 add list=spamhaus address=2.57.122.0/24
+add list=spamhaus address=2.57.149.0/24
 add list=spamhaus address=2.58.95.0/24
 add list=spamhaus address=5.42.64.0/22
 add list=spamhaus address=5.42.92.0/24
@@ -1025,7 +1028,6 @@ add list=spamhaus address=45.91.227.0/24
 add list=spamhaus address=45.95.232.0/24
 add list=spamhaus address=45.128.96.0/24
 add list=spamhaus address=45.128.232.0/24
-add list=spamhaus address=45.129.14.0/24
 add list=spamhaus address=45.133.246.0/24
 add list=spamhaus address=45.134.26.0/24
 add list=spamhaus address=45.135.232.0/24
@@ -1148,6 +1150,7 @@ add list=spamhaus address=107.150.4.0/22
 add list=spamhaus address=107.155.224.0/22
 add list=spamhaus address=109.107.182.0/24
 add list=spamhaus address=109.172.84.0/23
+add list=spamhaus address=109.196.166.0/23
 add list=spamhaus address=109.206.237.0/24
 add list=spamhaus address=111.68.64.0/24
 add list=spamhaus address=111.68.69.0/24
