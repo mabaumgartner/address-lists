@@ -1,4 +1,4 @@
-# Generated on 20240626T0205414833Z
+# Generated on 20240627T1635371940Z
 /ip firewall address-list remove [/ip firewall address-list find list="spamhaus"]
 /ip firewall address-list remove [/ip firewall address-list find list="abusech"]
 /ip firewall address-list remove [/ip firewall address-list find list="etopen"]
@@ -158,26 +158,12 @@ add list=spamhaus address=63.66.60.0/23
 add list=spamhaus address=63.80.8.0/22
 add list=spamhaus address=63.80.80.0/21
 add list=spamhaus address=63.106.68.0/22
-add list=spamhaus address=63.171.76.0/22
-add list=spamhaus address=63.173.24.0/22
-add list=spamhaus address=63.174.56.0/21
-add list=spamhaus address=63.175.81.0/24
-add list=spamhaus address=63.175.82.0/23
-add list=spamhaus address=63.175.84.0/24
-add list=spamhaus address=63.175.86.0/24
 add list=spamhaus address=64.15.0.0/20
 add list=spamhaus address=64.69.16.0/20
 add list=spamhaus address=64.92.224.0/20
 add list=spamhaus address=64.137.39.0/24
 add list=spamhaus address=64.250.144.0/20
 add list=spamhaus address=64.254.80.0/20
-add list=spamhaus address=65.162.104.0/21
-add list=spamhaus address=65.162.156.0/22
-add list=spamhaus address=65.165.76.0/22
-add list=spamhaus address=65.165.152.0/21
-add list=spamhaus address=65.173.168.0/21
-add list=spamhaus address=65.173.176.0/23
-add list=spamhaus address=65.173.228.0/22
 add list=spamhaus address=65.205.64.0/22
 add list=spamhaus address=65.216.208.0/21
 add list=spamhaus address=66.54.232.0/22
@@ -463,7 +449,6 @@ add list=spamhaus address=104.193.228.0/22
 add list=spamhaus address=104.206.247.0/24
 add list=spamhaus address=104.244.56.0/21
 add list=spamhaus address=106.95.0.0/16
-add list=spamhaus address=107.148.37.0/24
 add list=spamhaus address=107.150.5.0/24
 add list=spamhaus address=107.155.224.0/22
 add list=spamhaus address=107.182.240.0/20
@@ -982,7 +967,6 @@ add list=spamhaus address=198.57.64.0/20
 add list=spamhaus address=198.62.16.0/20
 add list=spamhaus address=198.62.70.0/24
 add list=spamhaus address=198.62.76.0/24
-add list=spamhaus address=198.69.0.0/22
 add list=spamhaus address=198.96.224.0/20
 add list=spamhaus address=198.99.117.0/24
 add list=spamhaus address=198.102.222.0/24
@@ -1013,7 +997,6 @@ add list=spamhaus address=198.206.140.0/24
 add list=spamhaus address=198.212.132.0/24
 add list=spamhaus address=198.235.160.0/20
 add list=spamhaus address=198.252.32.0/19
-add list=spamhaus address=199.1.64.0/21
 add list=spamhaus address=199.4.151.0/24
 add list=spamhaus address=199.4.226.0/23
 add list=spamhaus address=199.4.228.0/23
@@ -1206,7 +1189,6 @@ add list=spamhaus address=204.155.94.0/24
 add list=spamhaus address=204.178.16.0/20
 add list=spamhaus address=204.179.64.0/20
 add list=spamhaus address=204.179.232.0/21
-add list=spamhaus address=204.181.160.0/21
 add list=spamhaus address=204.187.192.0/19
 add list=spamhaus address=204.187.224.0/20
 add list=spamhaus address=204.187.240.0/21
@@ -1286,12 +1268,10 @@ add list=spamhaus address=205.237.10.0/23
 add list=spamhaus address=205.237.12.0/22
 add list=spamhaus address=205.237.16.0/22
 add list=spamhaus address=205.237.88.0/21
-add list=spamhaus address=205.243.235.0/24
 add list=spamhaus address=206.41.128.0/20
 add list=spamhaus address=206.41.160.0/19
 add list=spamhaus address=206.51.29.0/24
 add list=spamhaus address=206.72.160.0/19
-add list=spamhaus address=206.107.219.0/24
 add list=spamhaus address=206.124.104.0/21
 add list=spamhaus address=206.125.16.0/20
 add list=spamhaus address=206.130.188.0/24
@@ -1334,8 +1314,6 @@ add list=spamhaus address=207.183.192.0/19
 add list=spamhaus address=207.201.64.0/18
 add list=spamhaus address=207.244.0.0/18
 add list=spamhaus address=207.252.136.0/21
-add list=spamhaus address=208.10.32.0/21
-add list=spamhaus address=208.12.64.0/19
 add list=spamhaus address=208.75.88.0/22
 add list=spamhaus address=208.90.32.0/21
 add list=spamhaus address=208.93.4.0/22
@@ -1406,8 +1384,8 @@ add list=etopen address=108.167.178.105
 add list=etopen address=110.14.63.161
 add list=etopen address=111.108.7.210
 add list=etopen address=112.169.152.35
+add list=etopen address=114.67.89.110
 add list=etopen address=115.23.23.103
-add list=etopen address=115.75.67.148
 add list=etopen address=116.105.208.89
 add list=etopen address=116.105.209.170
 add list=etopen address=116.105.215.164
@@ -1429,10 +1407,10 @@ add list=etopen address=116.110.92.207
 add list=etopen address=116.110.95.192
 add list=etopen address=116.110.95.93
 add list=etopen address=116.98.160.66
+add list=etopen address=116.98.165.59
 add list=etopen address=116.98.166.49
 add list=etopen address=116.98.168.4
 add list=etopen address=116.98.170.189
-add list=etopen address=116.98.170.70
 add list=etopen address=116.98.171.101
 add list=etopen address=116.98.171.147
 add list=etopen address=116.98.172.50
@@ -1443,6 +1421,7 @@ add list=etopen address=118.43.127.7
 add list=etopen address=123.143.12.102
 add list=etopen address=128.199.136.155
 add list=etopen address=128.199.26.212
+add list=etopen address=128.199.30.13
 add list=etopen address=128.199.30.153
 add list=etopen address=128.199.52.103
 add list=etopen address=130.61.35.0
@@ -1476,7 +1455,6 @@ add list=etopen address=141.98.11.82
 add list=etopen address=141.98.7.211
 add list=etopen address=142.93.102.52
 add list=etopen address=143.110.252.170
-add list=etopen address=143.244.129.189
 add list=etopen address=143.244.133.191
 add list=etopen address=143.244.137.161
 add list=etopen address=14.40.58.161
@@ -1489,6 +1467,7 @@ add list=etopen address=148.101.94.93
 add list=etopen address=152.89.198.106
 add list=etopen address=154.12.251.182
 add list=etopen address=157.230.113.180
+add list=etopen address=157.230.238.222
 add list=etopen address=157.230.25.254
 add list=etopen address=157.245.100.133
 add list=etopen address=157.245.108.119
@@ -1511,6 +1490,7 @@ add list=etopen address=159.65.150.5
 add list=etopen address=159.65.153.117
 add list=etopen address=159.65.154.27
 add list=etopen address=159.65.159.50
+add list=etopen address=161.35.117.97
 add list=etopen address=161.35.142.140
 add list=etopen address=161.35.166.150
 add list=etopen address=161.35.174.47
@@ -1542,7 +1522,6 @@ add list=etopen address=167.71.135.92
 add list=etopen address=167.71.142.251
 add list=etopen address=167.71.168.166
 add list=etopen address=167.71.232.170
-add list=etopen address=167.86.125.89
 add list=etopen address=167.99.48.28
 add list=etopen address=167.99.90.60
 add list=etopen address=168.75.64.214
@@ -1554,7 +1533,6 @@ add list=etopen address=170.64.152.162
 add list=etopen address=170.64.152.31
 add list=etopen address=170.64.154.17
 add list=etopen address=170.64.154.218
-add list=etopen address=170.64.156.145
 add list=etopen address=170.64.156.155
 add list=etopen address=170.64.156.240
 add list=etopen address=170.64.158.223
@@ -1565,20 +1543,17 @@ add list=etopen address=170.64.173.179
 add list=etopen address=170.64.173.99
 add list=etopen address=170.64.175.56
 add list=etopen address=170.64.184.15
-add list=etopen address=170.64.186.202
 add list=etopen address=170.64.187.41
 add list=etopen address=170.64.188.34
 add list=etopen address=170.64.190.158
 add list=etopen address=170.64.192.105
 add list=etopen address=170.64.196.149
-add list=etopen address=170.64.197.3
 add list=etopen address=170.64.198.102
 add list=etopen address=170.64.200.53
 add list=etopen address=170.64.200.63
 add list=etopen address=170.64.206.218
 add list=etopen address=170.64.206.41
 add list=etopen address=170.64.218.97
-add list=etopen address=170.64.220.60
 add list=etopen address=170.64.226.103
 add list=etopen address=170.64.226.186
 add list=etopen address=170.64.226.25
@@ -1633,11 +1608,9 @@ add list=etopen address=209.121.81.159
 add list=etopen address=209.126.2.214
 add list=etopen address=209.126.80.75
 add list=etopen address=209.38.16.143
-add list=etopen address=209.38.18.100
 add list=etopen address=209.38.20.167
 add list=etopen address=209.38.20.190
 add list=etopen address=209.38.20.201
-add list=etopen address=209.38.22.141
 add list=etopen address=209.38.26.10
 add list=etopen address=209.38.26.153
 add list=etopen address=209.38.26.208
@@ -1648,18 +1621,20 @@ add list=etopen address=209.38.38.20
 add list=etopen address=209.38.72.174
 add list=etopen address=211.112.175.88
 add list=etopen address=211.114.124.31
-add list=etopen address=211.186.118.31
 add list=etopen address=211.57.111.99
 add list=etopen address=212.76.27.39
 add list=etopen address=213.216.83.2
 add list=etopen address=213.217.31.51
 add list=etopen address=217.71.244.58
+add list=etopen address=218.152.25.113
 add list=etopen address=218.156.108.222
 add list=etopen address=220.122.245.27
 add list=etopen address=222.155.80.149
 add list=etopen address=23.247.130.85
 add list=etopen address=23.249.28.102
+add list=etopen address=23.94.247.41
 add list=etopen address=23.95.248.49
+add list=etopen address=24.144.86.27
 add list=etopen address=24.45.174.115
 add list=etopen address=27.111.32.174
 add list=etopen address=27.69.157.7
@@ -1667,6 +1642,7 @@ add list=etopen address=34.172.237.230
 add list=etopen address=34.221.58.2
 add list=etopen address=34.222.23.199
 add list=etopen address=35.164.18.78
+add list=etopen address=35.213.128.12
 add list=etopen address=35.240.196.123
 add list=etopen address=35.240.249.142
 add list=etopen address=35.89.70.124
@@ -1689,7 +1665,7 @@ add list=etopen address=49.51.73.186
 add list=etopen address=51.210.106.30
 add list=etopen address=5.154.119.23
 add list=etopen address=51.79.103.135
-add list=etopen address=5.19.118.77
+add list=etopen address=51.83.128.161
 add list=etopen address=52.139.235.212
 add list=etopen address=52.32.211.146
 add list=etopen address=5.42.83.127
@@ -1705,8 +1681,8 @@ add list=etopen address=61.80.1.225
 add list=etopen address=64.227.133.211
 add list=etopen address=64.227.142.197
 add list=etopen address=64.227.147.19
-add list=etopen address=64.227.157.174
 add list=etopen address=64.227.160.210
+add list=etopen address=64.23.182.107
 add list=etopen address=64.23.249.242
 add list=etopen address=65.181.84.231
 add list=etopen address=66.176.197.92
