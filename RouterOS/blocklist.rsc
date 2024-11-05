@@ -1,4 +1,4 @@
-# Generated on 20241105T0147429366Z
+# Generated on 20241105T2121172086Z
 /ip firewall address-list remove [/ip firewall address-list find list="spamhaus"]
 /ip firewall address-list remove [/ip firewall address-list find list="abusech"]
 /ip firewall address-list remove [/ip firewall address-list find list="etopen"]
@@ -258,7 +258,6 @@ add list=spamhaus address=87.120.120.0/23
 add list=spamhaus address=87.121.86.0/24
 add list=spamhaus address=87.121.105.0/24
 add list=spamhaus address=87.229.22.0/24
-add list=spamhaus address=87.229.70.0/24
 add list=spamhaus address=87.229.110.0/24
 add list=spamhaus address=87.246.7.0/24
 add list=spamhaus address=87.247.158.0/23
