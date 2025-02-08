@@ -1,4 +1,4 @@
-# Generated on 20250207T2323428806Z
+# Generated on 20250208T2033503278Z
 /ip firewall address-list remove [/ip firewall address-list find list="spamhaus"]
 /ip firewall address-list remove [/ip firewall address-list find list="abusech"]
 /ip firewall address-list remove [/ip firewall address-list find list="etopen"]
